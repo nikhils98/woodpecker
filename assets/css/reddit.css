@@ -1,0 +1,9 @@
+.reddit-button {
+  padding: 12px;
+  font-size: 12px; 
+  font-weight: 700;
+}
+
+.reddit-button:hover {
+  background-color: rgba(26,26,27,0.1);
+}

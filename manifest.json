@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Woodpecker",
+  "version": "1.0.0",
+  "description": "Save links and posts",
+  "content_scripts": [
+    {
+      "css": ["assets/css/reddit.css"],
+      "js": [
+        "bundle.js"
+      ],
+      "matches": [
+        "https://www.reddit.com/*",
+        "https://reddit.com/*"
+      ],
+      "resources": ["assets/images/acorn.png"]
+    }
+  ]
+}
