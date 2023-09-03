@@ -3,6 +3,11 @@
   "name": "Woodpecker",
   "version": "1.0.0",
   "description": "Save links and posts",
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
   "content_scripts": [
     {
       "css": ["assets/css/reddit.css"],
