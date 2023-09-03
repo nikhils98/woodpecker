@@ -10,10 +10,10 @@
         "bundle.js"
       ],
       "matches": [
-        "https://www.reddit.com/*",
-        "https://reddit.com/*"
+        "*://*.reddit.com/*"
       ],
-      "resources": ["assets/images/acorn.png"]
+      "resources": ["assets/images/acorn.png"],
+      "run_at": "document_idle"
     }
   ]
 }
