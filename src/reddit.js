@@ -10,5 +10,5 @@ function addButton() {
   const peckButton = htmlToElement('<button class="reddit-button"><img id="icon-image" alt="acorn" width="20" height="20"/></button>')
   menuWrapper.appendChild(peckButton)
   let icon = document.getElementById("icon-image");
-  icon.src = chrome.runtime.getURL("assets/images/acorn.png");
+  icon.src = chrome.runtime.getURL("assets/acorn.png");
 }

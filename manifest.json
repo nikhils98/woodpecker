@@ -4,15 +4,15 @@
   "version": "1.0.0",
   "description": "Save links and posts",
   "icons": {
-    "16": "assets/images/icon16.png",
-    "48": "assets/images/icon48.png",
-    "128": "assets/images/icon128.png"
+    "16": "assets/icon16.png",
+    "48": "assets/icon48.png",
+    "128": "assets/icon128.png"
   },
   "content_scripts": [
     {
-      "css": ["assets/css/reddit.css"],
+      "css": ["src/css/reddit.css"],
       "js": [
-        "assets/scripts/dist/bundle.js"
+        "dist/bundle.js"
       ],
       "matches": [
         "https://www.reddit.com/*",
@@ -22,6 +22,6 @@
   ],
   "web_accessible_resources": [{
     "matches": ["<all_urls>"],
-    "resources": ["assets/images/*"]
+    "resources": ["assets/*"]
 }]
 }
